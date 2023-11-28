@@ -118,5 +118,32 @@ switch (oper){
         break;
 }
 
+// Practice Question
+// Q1. Get user to input a number using prompt("Enter a number").Check if the number is a multiple of 5 or not
+let user = 5;
+if(user%5==0){
+    console.log(`${user} is multiple of 5`);
+}
+else{
+    console.log(`${user}  is not multiple of 5`);
+}
+
+// Q2. Write a code which can give grades to students according to their scores
+let stud = 56;
+if(stud>=80 && stud<=100){
+    console.log("Grade is A");
+}
+else if(stud>=70 && stud<=89){
+    console.log("Grade is B");
+}
+else if(stud>=60 && stud<=69){
+    console.log("Grade is C");
+}
+else if(stud>=50 && stud<=59){
+    console.log("Grade is D");
+}
+else{
+    console.log("Grade is F")
+}
 
 
