@@ -107,7 +107,7 @@ console.log(str5);
 console.log(str8);
 
 // Lets practice
-let user1 = prompt("Enter the full name");
+// let user1 = prompt("Enter the full name");
 let user2 = user1.length;
 console.log(`@${user1}${user2}`);
 
