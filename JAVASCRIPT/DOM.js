@@ -38,14 +38,69 @@
 // console.dir(h2);
 // h2.innerText = h2.innerText+"from Apna College";
 
-let div = document.querySelectorAll(".box");
-console.dir(div);
-// div[0].innerText = "new unique value 1";
-// div[1].innerText = "new unique value 1";
-// div[2].innerText = "new unique value 2";
-let idx = 1;
-for(divs of div){
-    divs.innerText = `new unique value of ${idx}`;
-    idx++;
-}
-console.log(divs);
+// let div = document.querySelectorAll(".box");
+// console.dir(div);
+// // div[0].innerText = "new unique value 1";
+// // div[1].innerText = "new unique value 1";
+// // div[2].innerText = "new unique value 2";
+// // let idx = 1;
+// // for(divs of div){
+// //     divs.innerText = `new unique value of ${idx}`;
+// //     idx++;
+// // }
+// // console.log(divs);
+
+// // By Sheryians youtube channel the study of DOM
+// // var a = document.querySelector("body");
+// var b = document.querySelector("h2")
+// // a.style.backgroundColor = "green";
+
+// // Event Listener
+// a.addEventListener("click",function(){
+//     // a.style.backgroundColor = "green";
+//     b.innerText = "Hello Javascript from Shreyians Youtube Channel"
+// })
+
+// var bulb  = document.querySelector("#bulb");
+// var button = document.querySelector("button");
+// var idx = 1;
+// button.addEventListener("click",function(){
+//     if(idx%2!==0){
+//     bulb.style.backgroundColor = "yellow";
+//     }
+//     else{
+//     bulb.style.backgroundColor = "white";
+//     }
+//     idx++;
+// })
+
+// // Attributes
+// // 1. getAttribute - to get the attribute value
+// let p = document.querySelector("p");
+// console.log(p.getAttribute("class"));
+// // 2. setAttribute
+// console.log(p.setAttribute("class","class"));
+
+// // Insert Element - to insert the new element firstly we have to create that element for example: p,h1 then add the element
+// let newBtn = document.createElement("button");
+// newBtn.innerText = "Click Me!"
+// let div2 = document.querySelector(".div");
+// div2.append(newBtn);
+// let newPara = document.createElement("h4");
+// newPara.innerText = "Insert Element";
+// div2.prepend(newPara);
+// let newOrder = document.createElement("li");
+// newOrder.innerText = "Item 1.1"
+// let li = document.querySelector("li");
+// li.after(newOrder);
+// // Delete the element
+// newOrder.remove()
+// HW- study about appendchild and removechild
+
+// Lets Practice
+// let newbtn = document.createElement("button")
+// newbtn.innerText = "click me";
+// newbtn.style.backgroundColor = "red";
+// newbtn.style.color = "white";
+// let div4 = document.querySelector("#bulb");
+// div4.before(newbtn);

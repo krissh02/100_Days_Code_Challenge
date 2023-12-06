@@ -98,18 +98,18 @@ let marks3 = marks2.filter((val) => {
 })
 console.log(marks3);
 
-let user1 = prompt("enter the number");
-let arr3 = [];
-for(let i=1;i<=user1;i++){
-    arr3[i-1] = i;
-}
-console.log(arr3);
-let sumNum = (res,curr) =>{
-    return res+curr;
-}
-let sumNum1= arr3.reduce(sumNum);
-console.log(`Sum of all number is ${sumNum1}`);
-let productNum = arr3.reduce((res,curr)=>{
-    return res*curr;
-})
-console.log(`Product of all number is ${productNum}`);
+// let user1 = prompt("enter the number");
+// let arr3 = [];
+// for(let i=1;i<=user1;i++){
+//     arr3[i-1] = i;
+// }
+// console.log(arr3);
+// let sumNum = (res,curr) =>{
+//     return res+curr;
+// }
+// let sumNum1= arr3.reduce(sumNum);
+// console.log(`Sum of all number is ${sumNum1}`);
+// let productNum = arr3.reduce((res,curr)=>{
+//     return res*curr;
+// })
+// console.log(`Product of all number is ${productNum}`);
