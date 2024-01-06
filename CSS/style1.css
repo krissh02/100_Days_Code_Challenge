@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rethink+Sans:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rethink Sans', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+}
+#card{
+    height: 430px;
+    width: 300px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+}
+#card img{
+    height: 200px;
+    width: 230px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+#card h1{
+    font-size: 30px;
+    margin: 10px 0;
+}
+#card h4{
+    font-size: 25px;
+    color: red;
+    margin: 20px;
+}
+#card button{
+    font-weight: 700;
+    padding: 12px 20px;
+    border-radius: 5px;
+    background-color: cadetblue;
+    color: #fff;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+}
+/* #card #remove{
+    background: #dadada;
+    color: black;
+} */

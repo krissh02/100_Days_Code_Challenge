@@ -6,6 +6,7 @@ let msg = document.querySelector("#msg");
 
 // for alternating turn
 let turnO = true; 
+let count = 0;
 
 const winningPatterns = [
     [0,1,2],
@@ -19,6 +20,7 @@ const winningPatterns = [
 ];
 
 const resetbtn = () =>{
+    count = 0
     turnO = true;
     enabledbtn();
 }
@@ -35,7 +37,10 @@ boxes.forEach((box) =>{
             turnO = true;
         }
         box.disabled = true;
-
+        count += 1;
+        if(count == 9){
+            draw();
+        }
         checkWinner();
     })
 });
@@ -58,6 +63,11 @@ const showWinner = (winner) => {
     msg.innerText = `Congrulations , Winner is ${winner}`;
     msgContainer.classList.remove("hide");
     disabledboxes();
+}
+
+const draw = () =>{
+    msg.innerText = "Sorry No one is winner, Play again!"
+    msgContainer.classList.remove("hide");
 }
 
 const checkWinner = () =>{
